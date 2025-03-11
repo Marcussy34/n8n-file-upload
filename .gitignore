@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# uploads directory
-/uploads/
+# uploads directory contents (but keep the directory)
+/uploads/*
+!uploads/.gitkeep
